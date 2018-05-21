@@ -1,0 +1,83 @@
+// colors
+$accentColor =red
+$textColor = #2c3e50
+$borderColor = #eaecef
+$codeBgColor = #282c34
+$arrowBgColor = #ccc
+
+// layout
+$navbarHeight = 3.6rem
+$sidebarWidth = 14rem
+$contentWidth = 740px
+
+// responsive breakpoints
+$MQNarrow = 959px
+$MQMobile = 719px
+$MQMobileNarrow = 419px
+
+body {
+    overflow-y:scroll;
+    background-color: black;
+}
+
+#app  
+    > div 
+        background-image:embedurl('/brain-neurons.jpg');
+        background-attachment: fixed;
+        > header 
+            a  
+                span.site-name
+                    color:white;
+                    position:absolute;
+                    top:0.7rem;
+            div.links 
+                > nav > div > 
+                    a
+                    &.router-link-active.router-link-active
+                    div > a > span.title
+                        color:white;
+                    a.nav-link
+                        &:hover
+                            color:#2696AF
+                    
+        .navbar
+            background-image:embedurl("synapse.png");  
+            background-image:embedurl("synapse.svg"),
+                linear-gradient(transparent, transparent); //css trick for fallback image
+            background-repeat: no-repeat;
+            padding: 35px;
+            background-position: 50px; 
+            background-color: black;
+            text-align: center;
+
+
+svg path { // SolidWorks logo
+  fill: #E53539;
+}
+
+.content
+    background-color: white;
+
+table.social {
+    width: 100%;
+    text-align: center;
+}
+
+#app > div > div.page > div.content.page-nav
+    border-radius: 0px 0px 10px 10px;
+
+#app > div > div.sidebar > ul
+    background-color: white;   
+    border-radius: 0px 0px 10px 10px; 
+
+@media screen and (min-width $MQMobile) {
+    #app > div > div.sidebar {
+            background-color:rgba(0, 0, 0, 0.5);
+        }
+    }
+
+@media screen and (max-width 1040px) {
+    #app > div > header > a > span{
+     display:none;
+        } 
+    }
