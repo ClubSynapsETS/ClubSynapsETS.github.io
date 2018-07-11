@@ -14,7 +14,7 @@ module.exports = {
     },
     head: [
         ['link', { rel: 'icon', href: '/logoIcon.png' }],        // Browser icon
-        ['meta', { property:'og:image', content:'/synapse.png'}] // For Open Graph ~ Facebook sharing
+        ['meta', { property:'og:image', content:'http://synapsets.etsmtl.ca/synapsets.png'}] // For Open Graph ~ Facebook sharing
     ],
     themeConfig: {
         locales: {
