@@ -37,15 +37,15 @@
                 msg: "Liste des membres",
                 adminMembers: [
                     { name: 'Carl Blanchette',  descriptionFr:'Capitaine',       descriptionEn:'Captain',    pictureName: 'carl_blanchette.png' },
-                    { name: 'Marius Fauteux',   descriptionFr:'Co-capitaine',    descriptionEn:'Co-captain', pictureName: 'missing.png' },
+                    { name: 'Marius Fauteux',   descriptionFr:'Co-capitaine',    descriptionEn:'Co-captain', pictureName: 'marius_fauteux.jpg' },
                     { name: 'Bruno Bentenuto',  descriptionFr:'Trésorier',       descriptionEn:'Treasurer',  pictureName: 'bruno_bentenuto.jpeg' }
                 ],
                 teamLeader: [
                     { name: 'David Valin',      descriptionFr: 'Prothèse',      descriptionEn: 'Prosthesis', pictureName: 'david_valin.jpg' },
-                    { name: 'Louis Séguin',     descriptionFr: 'Prothèse',      descriptionEn: 'Prosthesis', pictureName: 'missing.png' },
+                    { name: 'Louis Séguin',     descriptionFr: 'Prothèse',      descriptionEn: 'Prosthesis', pictureName: 'louis_seguin.jpg' },
                     { name: 'Samuël Lefebvre',  descriptionFr: 'Site Web',      descriptionEn: 'Web Site',   pictureName: 'samuel_lefebvre.jpg' },
-                    { name: 'Marius Fauteux',   descriptionFr: 'MICSA',         descriptionEn: 'MICSA',      pictureName: 'missing.png' },
-                    { name: 'Giancarlo Tayag',  descriptionFr: 'MICSA',         descriptionEn: 'MICSA',      pictureName: 'missing.png' },
+                    { name: 'Marius Fauteux',   descriptionFr: 'MICSA',         descriptionEn: 'MICSA',      pictureName: 'marius_fauteux.jpg' },
+                    { name: 'Giancarlo Tayag',  descriptionFr: 'MICSA',         descriptionEn: 'MICSA',      pictureName: 'giancarlo_tayag.jpg' },
                     { name: 'Arnaud Brignol',   descriptionFr: 'Unity',         descriptionEn: 'Unity',      pictureName: 'arnaud_brignol.jpg' }
                 ]
             }
