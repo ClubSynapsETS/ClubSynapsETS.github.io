@@ -9,7 +9,7 @@ SynapsÉTS est un nouveau club étudiant à vocation scientifique de l'École de
 ## Contact
 <address>
 <a href="mailto:synapsets@ens.etsmtl.ca">synapsets@ens.etsmtl.ca</a><br>
-1100, rue Notre-Dame Ouest (angle Peel)<br> 
+1100, rue Notre-Dame Ouest (angle Peel)<br>
 Local A-1726, ÉTS<br>
 Montréal (Québec) H3C 1K3<br>
 </address>

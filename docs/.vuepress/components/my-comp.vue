@@ -2,7 +2,7 @@
     <div>
         {{msg}}
     </div>
-    
+
 </template>
 
 <script>

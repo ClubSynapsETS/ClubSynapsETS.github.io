@@ -1,24 +1,24 @@
 <template>
-    
+
 <div>
     <h2 v-if="lang ==='en'">{{ executiveLang.en }}</h2><h2 v-else>{{ executiveLang.fr }}</h2>
     <main>
         <div class="member" v-for="member in adminMembers">
             <img v-bind:src="$withBase('/members/' + member.pictureName)" class="members">
-            <p class="membre" v-if="lang ==='en'">• {{ member.descriptionEn }} •</p><p class="membre" v-else>• {{ member.descriptionFr }} •</p>
-            <p class="membre">{{ member.name }}</p>            
+            <p class="clsMember" v-if="lang ==='en'">• {{ member.descriptionEn }} •</p><p class="clsMember" v-else>• {{ member.descriptionFr }} •</p>
+            <p class="clsMember">{{ member.name }}</p>
         </div>
     </main>
     <h2 v-if="lang ==='en'">{{ teamLeaderLang.en }}</h2><h2 v-else>{{ teamLeaderLang.fr }}</h2>
     <main>
         <div class="member" v-for="member in teamLeader">
             <img v-bind:src="$withBase('/members/' + member.pictureName)" class="members">
-            <p class="membre" v-if="lang ==='en'">• {{ member.descriptionEn }} •</p><p class="membre" v-else>• {{ member.descriptionFr }} •</p>
-            <p class="membre">{{ member.name }}</p>
+            <p class="clsMember" v-if="lang ==='en'">• {{ member.descriptionEn }} •</p><p class="clsMember" v-else>• {{ member.descriptionFr }} •</p>
+            <p class="clsMember">{{ member.name }}</p>
         </div>
     </main>
 </div>
-    
+
 </template>
 
 <script>
@@ -64,13 +64,13 @@ div.member {
     padding-right: 10px;
 }
 
-p.membre {
+p.clsMember {
     line-height: 5px;
 }
 
 img.members {
-   
-    width: 215px; 
+
+    width: 215px;
     height: 215px;
 }
 

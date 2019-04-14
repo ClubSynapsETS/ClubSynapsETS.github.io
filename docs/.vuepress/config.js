@@ -53,10 +53,10 @@ module.exports = {
                     'en/contact/'
                 ]
             }
-        },        
-        search: false        
+        },
+        search: false
     },
-    markdown: { 
+    markdown: {
         anchor: { permalink: true, permalinkSymbol:'#'}
     }
 };
