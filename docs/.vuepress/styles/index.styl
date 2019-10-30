@@ -4,6 +4,9 @@ body
   background-attachment: fixed
   overflow-y: scroll
 
+.page
+  padding-left 14rem
+
 // Content
 .content__default
   background-color white
@@ -38,18 +41,25 @@ footer
   a
     .site-name
       color:white
-  &.router-link-active
-      color white !important
   .links
-    color white
+    color $linksHeaderColor
     background-color:black !important // Override default theme should be fixed in next Vuepress version
-
-.nav-links a
-    &:hover, &.router-link-active
-      color $linkHoverColor !important // Selected link
-
-.nav-dropdown
-  color black
+  .nav-links
+    .nav-item
+      .nav-link
+        &:hover
+          color $linkHeaderHoverColor !important
+        &.router-link-active
+          color $linksHeaderColor
+      .dropdown-wrapper
+        .dropdown-title
+          color $linksHeaderColor
+        .nav-dropdown
+          color black
+          .dropdown-item
+            a
+              &:hover, &.router-link-active
+                color $accentColor !important
 
 // Mobile
 
