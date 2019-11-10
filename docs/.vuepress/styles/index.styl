@@ -54,6 +54,11 @@ footer
       .dropdown-wrapper
         .dropdown-title
           color $linksHeaderColor
+          .title::before
+            content:embedurl("/img/translation.svg") //https://commons.wikimedia.org/wiki/OOUI_icons
+            padding-right: 5px;
+            position: relative;
+            top: 3px;
         .nav-dropdown
           color black
           .dropdown-item
