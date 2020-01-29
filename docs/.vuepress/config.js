@@ -20,7 +20,7 @@ module.exports = {
         locales: {
             '/': {
                 // text for the language dropdown
-                selectText: 'Languages',
+                selectText: 'Langues',
                 // label for this locale in the language dropdown
                 label: 'Français',
                 nav: [
@@ -37,7 +37,7 @@ module.exports = {
                 ]
             },
             '/en/':{
-                selectText: 'Langues',
+                selectText: 'Languages',
                 // label for this locale in the language dropdown
                 label: 'English',
                 nav: [
@@ -53,10 +53,10 @@ module.exports = {
                     'en/contact/'
                 ]
             }
-        },        
-        search: false        
+        },
+        search: false
     },
-    markdown: { 
+    markdown: {
         anchor: { permalink: true, permalinkSymbol:'#'}
     }
 };

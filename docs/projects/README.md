@@ -16,3 +16,5 @@ Ce projet consiste au développement d’un jeu vidéo en réalité virtuel et q
 
 ![Unity](./Unity.png)
 
+## Projet EXO
+Le projet EXO est un projet de conception d’exosquelette servant à assister les personnes atteintes de mobilité réduite. La locomotion chez les patients ayant complètement ou partiellement perdu l’habilité de leur membres inférieures permettra d’éviter le phénomène d’atrophie musculosquelettique.  La vision du projet EXO est de pouvoir fournir une technologie permettant des meilleurs résultats en combinant le monde de l’ingénierie et celui de la thérapie médicale.

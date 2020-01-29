@@ -1,0 +1,85 @@
+body
+  background-color black
+  background-image url('/brain-neurons.jpg')
+  background-attachment: fixed
+  overflow-y: scroll
+
+.page
+  padding-left 14rem
+
+// Content
+.content__default
+  background-color white
+footer
+  background-color:white
+.page-nav
+  background-color:white
+  border-bottom-left-radius: 10px
+  border-bottom-right-radius: 10px
+
+// Sidebar
+.sidebar
+  background-color: $halfTransparentBlack
+  width 14rem
+
+.sidebar-links
+  background-color white
+  border-bottom-left-radius: 10px
+  border-bottom-right-radius: 10px
+
+// Header
+.navbar
+  background-image:embedurl("/synapse.png")
+  background-image:embedurl("/logo/logo_Synapsets_monochrome.svg"),
+    linear-gradient(transparent, transparent)
+  background-repeat: no-repeat
+  //padding: 35px
+  height 4.5rem
+  background-position: 50px
+  background-color: black
+  text-align: center
+  a
+    .site-name
+      color:white
+  .links
+    color $linksHeaderColor
+    background-color:black !important // Override default theme should be fixed in next Vuepress version
+  .nav-links
+    .nav-item
+      .nav-link
+        &:hover
+          color $linkHeaderHoverColor !important
+        &.router-link-active
+          color $linksHeaderColor
+      .dropdown-wrapper
+        .dropdown-title
+          color $linksHeaderColor
+          .title::before
+            content:embedurl("/img/translation.svg") //https://commons.wikimedia.org/wiki/OOUI_icons
+            padding-right: 5px;
+            position: relative;
+            top: 3px;
+        .nav-dropdown
+          color black
+          .dropdown-item
+            a
+              &:hover, &.router-link-active
+                color $accentColor !important
+
+// Mobile
+
+.sidebar-button // Hamburger menu
+  color red
+
+@media screen and (max-width $MQMobile) // Remove transparent menu
+  .nav-links
+    background-color white
+
+@media screen and (max-width 1040px) // Hide site name
+  .navbar
+    .site-name
+      display:none
+
+@media screen and (max-width 805px) // Remove dropdown language when resizing
+  .dropdown-wrapper
+    display:none
