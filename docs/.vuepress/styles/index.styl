@@ -4,9 +4,6 @@ body
   background-attachment: fixed
   overflow-y: scroll
 
-.page
-  padding-left 14rem
-
 // Content
 .content__default
   background-color white
@@ -83,3 +80,8 @@ footer
 @media screen and (max-width 805px) // Remove dropdown language when resizing
   .dropdown-wrapper
     display:none
+
+// Not Mobile
+@media screen and (min-width $MQMobile) // When sized is bigger than mobile, add a padding for content
+  .page
+    padding-left 14rem
