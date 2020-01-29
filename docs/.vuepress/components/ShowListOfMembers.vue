@@ -40,10 +40,10 @@
                     { name: 'Yanick Godin', descriptionFr:'Trésorier', descriptionEn:'Treasurer', pictureName: 'missing.png' }
                 ],
                 teamLeader: [
-                    { name: 'Emmanuel Chaput', descriptionFr: 'Directeur Logiciel', descriptionEn: 'Software Director', pictureName: 'missing.png' },
+                    { name: 'Emmanuel Chaput', descriptionFr: 'Directeur Logiciel', descriptionEn: 'Software Director', pictureName: 'emmanuel_chaput.jpg' },
                     { name: 'Samuël Lefebvre', descriptionFr: 'Directeur Multimédia', descriptionEn: 'Multimedia Director', pictureName: 'samuel_lefebvre.jpg' },
-                    { name: 'Gabriel Ajram', descriptionFr: 'Directeur Mécanique', descriptionEn: 'Mechanical Director', pictureName: 'missing.png' },
-                    { name: 'Mubashar Hussain', descriptionFr: 'Directeur Électronique', descriptionEn: 'Electronic Director', pictureName: 'missing.png' }
+                    { name: 'Gabriel Ajram', descriptionFr: 'Directeur Mécanique', descriptionEn: 'Mechanical Director', pictureName: 'gabriel_ajram.jpg' },
+                    { name: 'Mubashar Hussain', descriptionFr: 'Directeur Électronique', descriptionEn: 'Electronic Director', pictureName: 'mubashar_hussain.png' }
                 ]
             }
         }
