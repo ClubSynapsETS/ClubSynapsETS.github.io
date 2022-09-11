@@ -38,5 +38,5 @@ jobs:
           # Upload entire repository
           path: '.'
       - name: Deploy to GitHub Pages
-        id: master
+        id: github-pages
         uses: actions/deploy-pages@v1      
