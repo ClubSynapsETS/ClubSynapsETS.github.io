@@ -38,5 +38,7 @@ jobs:
           # Upload entire repository
           path: '.'
       - name: Deploy to GitHub Pages
-        id: deployment
+        id: master
         uses: actions/deploy-pages@v1
+        # Write the given domain name to the CNAME file
+        fqdn: synapsets.etsmtl.ca
