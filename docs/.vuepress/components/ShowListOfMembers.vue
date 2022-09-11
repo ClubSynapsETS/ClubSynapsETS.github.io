@@ -36,14 +36,15 @@
                 },
                 msg: "Liste des membres",
                 adminMembers: [
-                    { name: 'Carl Blanchette', descriptionFr:'Capitaine', descriptionEn:'Captain', pictureName: 'carl_blanchette.png' },
-                    { name: 'Yanick Godin', descriptionFr:'Trésorier', descriptionEn:'Treasurer', pictureName: 'missing.png' }
+                    { name: 'Alexandre-Xavier Panu-bule', descriptionFr:'Capitaine', descriptionEn:'Captain', pictureName: 'alexandre-xavier_panu-bule.jpg' },
+                    { name: 'Mubashar Hussain ', descriptionFr:'Co-capitaine et Directeur Électronique', descriptionEn:'Co-Capitain and Electronic Director', pictureName: 'mubashar_hussain.png' },
+                    { name: 'Jacques Veneziano ', descriptionFr:'Trésorier et chef d’équipe pour MICSA', descriptionEn:'Treasurer and MICSA Team Lead', pictureName: 'jacques_veneziano.png' }
                 ],
                 teamLeader: [
-                    { name: 'Emmanuel Chaput', descriptionFr: 'Directeur Logiciel', descriptionEn: 'Software Director', pictureName: 'emmanuel_chaput.jpg' },
-                    { name: 'Samuël Lefebvre', descriptionFr: 'Directeur Multimédia', descriptionEn: 'Multimedia Director', pictureName: 'samuel_lefebvre.jpg' },
-                    { name: 'Gabriel Ajram', descriptionFr: 'Directeur Mécanique', descriptionEn: 'Mechanical Director', pictureName: 'gabriel_ajram.jpg' },
-                    { name: 'Mubashar Hussain', descriptionFr: 'Directeur Électronique', descriptionEn: 'Electronic Director', pictureName: 'mubashar_hussain.png' }
+                    { name: 'Interim', descriptionFr: 'Directeur Logiciel', descriptionEn: 'Software Director', pictureName: 'missing.png' },
+                    { name: 'Interim', descriptionFr: 'Directeur Multimédia', descriptionEn: 'Multimedia Director', pictureName: 'missing.png' },
+                    { name: 'Jean-Rémi Martin', descriptionFr: 'Directeur Mécanique', descriptionEn: 'Mechanical Director', pictureName: 'jean-remi_martin.png' },
+                    { name: 'Mubashar Hussain', descriptionFr: 'Membre et co-directeur mécanique', descriptionEn: 'Co-Mechanical Director', pictureName: 'mubashar_hussain.png' }
                 ]
             }
         }

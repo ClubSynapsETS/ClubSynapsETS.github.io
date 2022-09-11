@@ -9,8 +9,9 @@ SynapsÉTS is a new science-based student club of the École de Technologie Sup�
 ## Contact
 <address>
 <a href="mailto:synapsets@ens.etsmtl.ca">synapsets@ens.etsmtl.ca</a><br>
-1100, rue Notre-Dame Ouest (angle Peel)<br>
-Local A-1726, ÉTS<br>
+SynapsÉTS<br>
+Local D-2014, ÉTS<br>
+1219, rue William<br>
 Montréal (Québec) H3C 1K3<br>
 </address>
 

@@ -18,7 +18,12 @@ http://ClubSynapsETS.github.io
 `yarn install`
 
 ### Serve local development
-`npx vuepress dev docs` or `yarn docs:dev`
+`npx vuepress dev docs` or `yarn dev`
+
+### Patch for old code
+
+Run this command in powershell before `yarn dev`
+`$env:NODE_OPTIONS = "--openssl-legacy-provider"`
 
 ### How to deploy
 

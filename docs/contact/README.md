@@ -1,15 +1,15 @@
 # Contact
 <address>
 <a href="mailto:synapsets@ens.etsmtl.ca">synapsets@ens.etsmtl.ca</a><br>
-1100, rue Notre-Dame Ouest (angle Peel)<br>
-Local A-1726, ÉTS<br>
-Montréal (Québec) H3C 1K3<br>
+1219 rue William<br>
+Local D-2014, ÉTS <br>
+ontréal (Québec) H3C 1R1<br>
 </address>
 
 
 # Médias Sociaux
 
-Suivez-nous pour être informé des dernières activité du club [SynapsÉTS](/) !
+Suivez-nous pour être informé des dernières activités du club [SynapsÉTS](/) !
 
 ## Facebook
 
