@@ -39,6 +39,4 @@ jobs:
           path: '.'
       - name: Deploy to GitHub Pages
         id: master
-        uses: actions/deploy-pages@v1
-        # Write the given domain name to the CNAME file
-        fqdn: synapsets.etsmtl.ca
+        uses: actions/deploy-pages@v1      
